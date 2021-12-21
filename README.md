@@ -40,8 +40,8 @@ face.param <br/>
 
 ## Running the app.
 To run the application load the project file HeadPose.cbp in Code::Blocks.<br/> 
-Next, follow the instructions at [Hands-On](https://qengineering.eu/deep-learning-examples-on-raspberry-32-64-os.html#HandsOn).<br/>
-We only use 5 landmarks. For the PnP solver you need at least 6 points. The sixth point (chin) is interpolated from the corners of the nose and mouth.
+Next, follow the instructions at [Hands-On](https://qengineering.eu/deep-learning-examples-on-raspberry-32-64-os.html#HandsOn).<br/><br/>
+We only use 5 landmarks. For the PnP solver you need at least 6 points. The sixth point (chin) is interpolated from the nose and the corners of the mouth.
 Needless to say, there are more accurate methods. But they all require more computing power. The processing speed will therefore be much lower.
 
 ------------
